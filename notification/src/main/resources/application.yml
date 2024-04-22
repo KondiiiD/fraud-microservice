@@ -1,12 +1,12 @@
 server:
-  port: 8080
+  port: 8082
 
 spring:
   application:
-    name: customer
+    name: notification
   datasource:
     password: password
-    url: jdbc:postgresql://localhost:5432/customer
+    url: jdbc:postgresql://localhost:5432/notification
     username: kondi
   jpa:
     hibernate:
@@ -19,6 +19,7 @@ spring:
   rabbitmq:
     addresses: localhost:5672
 
+
 eureka:
   client:
     service-url:
@@ -29,6 +30,10 @@ management:
     sampling:
       probability: 1.0
 
-
-
-
+rabbitmq:
+  exchanges:
+    internal: internal.exchange
+  queues:
+    notification: notification.queue
+  routing-keys:
+    internal-notification: internal.notification.routing-key
