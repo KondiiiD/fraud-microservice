@@ -1,4 +1,4 @@
-package com.kondi.fraud;
+package pl.kondi.fraud;
 
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

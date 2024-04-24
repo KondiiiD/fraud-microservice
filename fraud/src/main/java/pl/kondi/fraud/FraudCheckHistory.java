@@ -1,4 +1,4 @@
-package com.kondi.fraud;
+package pl.kondi.fraud;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package com.kondi.eurekaserver;
+package pl.kondi.eurekaserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

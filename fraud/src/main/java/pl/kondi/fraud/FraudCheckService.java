@@ -1,8 +1,7 @@
-package com.kondi.fraud;
+package pl.kondi.fraud;
 
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
-import pl.kondi.clients.notification.NotificationClient;
 
 import java.time.LocalDateTime;
 
